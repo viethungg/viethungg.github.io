@@ -236,6 +236,7 @@ $(function()
                 --currIndex;
             else
                 ++currIndex;
+				albumArt.find('img').attr('Background\iconquayquay.png', currArtwork);
         }
     }
 
