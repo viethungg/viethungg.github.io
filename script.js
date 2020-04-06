@@ -21,10 +21,30 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "Dig Didzay",
-		name: "Nếu Anh Đi (Cover)",
-		url: "Musics/NeuAnhDi.mp3",
-		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+		artist: "Chillies x BLAZE",
+		name: "Mascara",
+		url: "Musics/Mascara.mp3",
+		picture: ""
+	}, {
+		artist: "Chillies",
+		name: "Vùng Ký Ức",
+		url: "Musics/VungKyUc.mp3",
+		picture:""
+	}, {
+		artist:"Thai Dinh",
+		name: "Em Có Còn Dùng Số Này Không?",
+		url: "Musics/EmCoConDungSoNayKhong.mp3",
+		picture: ""
+	}, {
+		artist:"Thai Dinh",
+		name: "Phố Không Em",
+		url: "Musics/PhoKhongEm.mp3",
+		picture: ""
+	}, {
+		artist:"Chillies",
+		name: "Và Thế Là Hết",
+		url: "Musics/VaTheLaHet.mp3",
+		picture: ""
 	}];
 	
 	function shuffle(a) {
@@ -236,7 +256,6 @@ $(function()
                 --currIndex;
             else
                 ++currIndex;
-				albumArt.find('img').attr('Background\iconquayquay.png', currArtwork);
         }
     }
 
