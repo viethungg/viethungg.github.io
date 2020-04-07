@@ -45,6 +45,31 @@ $(function()
 		name: "Và Thế Là Hết",
 		url: "Musics/VaTheLaHet.mp3",
 		picture: ""
+	}, {
+		artist: "Billie Eilish, Khalid",
+		name: "lovely",
+		url: "Musics/Lovely.mp3",
+		picture: ""
+	}, {
+		artist: "Joji",
+		name: "Slow Dancing In The Dark",
+		url: "Musics/SlowDancingInTheDark.mp3",
+		picture: ""
+	}, {
+		artist: "Kina, Adriana Proenza",
+		name: "Can We Kiss Forever?",
+		url: "Musics/CanWeKissForever.mp3",
+		picture: ""
+	}, {
+		artist: "Kina, Snow",
+		name: "get you the moon",
+		url: "Musics/GetYouTheMoon.mp3",
+		picture: ""
+	}, {
+		artist: "Kina, shiloh",
+		name: "u're mine.",
+		url: "Musics/UAreMine.mp3",
+		picture: ""
 	}];
 	
 	function shuffle(a) {
